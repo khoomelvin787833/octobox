@@ -1,7 +1,7 @@
 var Octobox = (function() {
 
   var checkSelectAll = function() {
-    $(".js-select_all").click();
+    document.querySelector(".js-select_all").click();
   };
 
   var getCurrentRow = function() {
